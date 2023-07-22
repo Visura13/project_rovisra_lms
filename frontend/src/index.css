@@ -1,0 +1,410 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: black;
+    
+}
+
+body {
+    
+    background-color: #e6ecef;
+    
+}
+
+
+header {
+    background-color: #131723;
+    color: #f6f9fb;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 57px;
+     
+    
+}
+
+header div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+
+
+header * {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header li {
+    margin-left: 10px;
+    
+}
+
+header li a {
+    color: #f6f9fb;
+    text-decoration: none;
+}
+
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; 
+  }
+
+.editor-nav {
+    padding: 80px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.links {
+    color: #fff;
+}
+
+.flexGrow {
+    padding-top: 30px;
+}
+
+
+.editor-login-register {
+    width: 100%;
+    width: 800px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: #394867;
+    color: #fff;
+    margin-top: 30px;
+}
+
+form {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+    
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="file"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+.course-details {
+    width: 900px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 40px;
+}
+
+.course-form {
+    
+    width: 900px;
+}
+
+.form-radio {
+    width: 75px;
+}
+
+.dlt-btn {
+    background-color: rgb(220, 10, 40);
+    margin-left: 1rem;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.profile-dlt-btn {
+    background-color: rgb(220, 10, 40);
+    margin-left: 1rem;
+}
+
+.profile-dlt-btn:hover {
+    background: rgb(210, 4, 45)
+}
+
+.profile-update-btn {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.profile-update-btn:hover {
+    background-color: rgb(234, 227, 228);
+}
+
+.editor-sign-out-btn {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 130px;
+    height: 60px;
+}
+
+.upload-btn {
+    margin-left: 85px;
+    width: 110px;
+    height: 60px;
+    align-content: center;
+}
+
+.course-search {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    width: 600px;
+}
+
+
+.course-createdAt {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-default {
+    margin-top: 1.5rem;
+}
+
+.col-md-5 {
+    width: 900px;
+}
+
+.editor-btn-center {
+    margin-top: 1rem;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mt-6{
+    margin-top: 50px;
+}
+
+.update-form-section {
+    width: 1000px;
+}
+
+.btn {
+   
+    width: 130px;
+    background-color: rgb(38, 60, 225);
+}
+
+.course-view {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card-img-top {
+    height: 500px;
+}
+
+.card {
+    width: 80%;
+    background: #fff;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 50px;
+}
+
+
+.course-main-img {
+    width: 100%;
+    height: 560px;
+}
+
+
+.course-title {
+    background-color: #f6f9fb;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #212A3E;
+}
+
+.course-desc {
+    margin: 50px;
+    padding: 20px;
+    background-color: #fafdff;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #212A3E;
+}
+
+.course-price {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.course-report-btn {
+    margin: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-container {
+    width: 1100px;
+}
+
+.card-body {
+    padding-bottom: 0px;
+}
+
+.course-update-btn {
+    margin-right: 1rem;
+    margin-left: 63.3%;
+}
+
+.course-dlt-btn {
+    background-color: rgb(220, 10, 40);
+    margin-left: 1rem;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.courses-h1 {
+    height: 200px;
+    width: 100%;
+    padding-left: 100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #212A3E;
+    color: #F1F6F9;
+}
+
+.add-course-button {
+    width: 500px;
+    height: 100px;
+}
+
+.dashboard-banner {
+    height: 200px;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #212A3E;
+    color: #F1F6F9;
+    width: 100%;
+}
+
+.content-list {
+    margin-left: 7%;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+
+.margin-right {
+    margin-right: 40px;
+}
+
+.btn-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #A459D1;
+}
+
+.btn-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
